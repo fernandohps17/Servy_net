@@ -1,0 +1,57 @@
+@import "./vars";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 9fr 1fr;
+}
+
+.content {
+  display: grid;
+  grid-column: 2/3;
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+// Efecto de linea
+.linea-efecto{
+  
+  h2{
+    display: inline-block;
+    position: relative;
+  }
+  
+  h2::after,h2::before{
+    content: '';
+    position: absolute;
+    width: 330px;
+    height: 1px;
+    background-color: $color_light_blue;
+    top: 0.6em;
+    @media screen and (max-width: $tablet_1200) {
+      display: none;
+    }
+  }
+
+  h2::before{
+    left: -360px;
+  }
+  
+  h2::after{
+    right: -360px;
+  }
+  
+}

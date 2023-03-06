@@ -1,0 +1,142 @@
+.bg_card_top{
+  background: $color_ultra_light_blue;
+  border-radius: 5px;
+  }
+  
+  .bg_card_top_footer{
+    background: $gradient_blue;
+  }
+
+  .shadow{
+    box-shadow: $shadow;
+    border-radius: 5px;
+  }
+  
+  .card_top{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+  
+    @media screen and (max-width: $tablet_1150) {
+      grid-auto-flow: row;
+    }
+  }
+  
+  .card_botton{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .container_servicio_top {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+    justify-content: start;
+    padding: 10px 20px;
+
+    @media screen and (max-width: $tablet_1200) {
+      justify-content: center;
+    }
+
+    @media screen and (max-width: $tablet_700) {
+      justify-content: start;
+    }
+    
+    svg {
+      width: 25px;
+      text-align: center;
+      fill: $color_dark_blue;
+    }
+    
+    p{
+      display: grid;
+    }
+    
+    span{
+      color: #00006600;
+    }
+  }
+  
+  .card_content{
+    margin: 20px 0 50px 0;
+        
+    img{
+      width: 300px;
+      height: 200px;
+      display: flex;
+      margin: auto;
+      object-fit: contain;
+    }
+    
+    h2{
+      text-align: center;
+      padding: 10px;
+      color: $color_dark_blue;
+      font-weight: 200;
+    }
+
+    h3{
+      color: $color_light_blue;
+      font-weight: 600;
+      font-size: 23px;
+      text-align: center;
+    
+    @media screen and (max-width: $mobile_600) {
+      text-align: center;
+    }
+  }
+
+    hr{
+      width: 80%;
+      margin: auto;
+    }
+  }
+
+  .--show{
+    img{
+      width: 250px;
+      height: 170px;
+    }
+  }
+  
+  .card_footer{
+    text-align: center;
+    padding: 20px;
+    line-height: 15px;
+    height: 120px;
+    border-radius: 0 0 5px 5px;
+  
+    h2{
+      color: white;
+    }
+  
+    p{
+      color: $color_dark_blue;
+    }
+    
+    a{
+      color: white;
+      background: $color_dark_blue;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: $shadow;
+      transition: .5s ease;
+      font-weight: 600;
+    }
+  
+    a:hover{
+      background: $color_light_blue;
+    }
+  
+    .botton{
+      margin-bottom: 25px;
+    }
+    
+    .botton-2{
+      margin: 10px 0 15px 0;
+      font-size: 12px;
+    }
+  }  

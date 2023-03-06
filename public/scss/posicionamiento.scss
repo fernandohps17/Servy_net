@@ -1,0 +1,184 @@
+@import "./components/vars";
+@import "./components/layout";
+@import "./components/btn_top";
+@import "./components/nav";
+@import "./components/header";
+@import "./components/header_icons";
+@import "./components/card_title";
+@import "./components/form";
+@import "./components/section_info";
+@import "./components/fotter";
+@import "./components/section_icons_posicionamiento";
+@import "./components/btn_call_phone";
+
+// Card morada oscura
+.card_top{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  
+  @media screen and (max-width: $tablet_1200) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card_content{
+  margin-bottom: 50px;
+  position: relative;
+  
+  img{
+    width: 280px;
+    height: 180px;
+    display: flex;
+    margin: auto;
+  }
+  
+  h2{
+    text-align: center;
+    padding: 6px;
+    color: $color_dark_blue;
+    font-weight: 200;
+  }
+  hr{
+    width: 80%;
+    margin: auto;
+  }
+}
+
+.container_servicio_top_morado {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 5px;
+  justify-content: start;
+  padding: 7px 20px;
+
+  @media screen and (max-width: $tablet_1200) {
+    justify-content: center;
+  }
+
+  @media screen and (max-width: $tablet_700) {
+    justify-content: start;
+  }
+
+  svg {
+    width: 25px;
+    text-align: center;
+    fill: $color_dark_morado_oscuro;
+  }
+  
+  p{
+    display: grid;
+  }
+}
+
+.bg_morado{
+  background: $color_ultra_light_morado_oscuro;
+  border-radius: 5px;
+}
+
+.bg_morado_footer{
+  background: $gradient_morado_oscuro;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  @media screen and (max-width: 1200px) {
+    position: relative;
+  }
+}
+
+.card_footer_morado{
+  text-align: center;
+  padding: 5px;
+  line-height: 20px;
+  height: 120px;
+  border-radius: 5px;
+
+  h2{
+    color: white;
+  }
+
+  p{
+    color: $color_dark_blue;
+  }
+
+  a{
+    color: white;
+    background: $color_dark_morado;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: $shadow;
+    transition: .5s ease;
+  }
+
+  a:hover{
+    background: $color_light_morado;
+  }
+  
+  .botton{
+    padding-bottom: 15px;
+  }
+}
+
+.container_servicio_top {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 5px;
+  justify-content: start;  
+
+  @media screen and (max-width: $tablet_1200) {
+    justify-content: center;
+  }
+
+  @media screen and (max-width: $tablet_700) {
+    justify-content: start;
+  }
+
+  svg {
+    width: 25px;
+    text-align: center;
+    fill: $color_light_blue;
+  }
+
+  p{
+    padding: 2px 0;
+  }
+}
+
+// Seccion de la Barra
+.bg_section_bar {
+  background-image: url(../img/servynet-agencia-marketing-digital-posicionamiento-seo-fondo-visibilidad.webp);
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h2 {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    text-shadow: $shadow_text;
+  }
+
+  p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: $shadow_text;
+  }
+
+  @media screen and (max-width: $tablet_700) {
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}

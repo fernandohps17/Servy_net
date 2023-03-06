@@ -1,0 +1,109 @@
+@import "./vars";
+
+// Fotter top
+.bg_footer_top{
+  background:url(/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-fondo-pie.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer_top{
+  display: grid;
+  grid-auto-flow: column;
+  margin: 30px 0;
+  color: white;
+
+  a{
+    color: white;
+    text-decoration: none;
+    transition: .5s ease;
+  }
+
+  svg{
+    fill: white;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media screen and (max-width: $tablet_800) {
+    grid-auto-flow: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+
+.footer_uno{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+
+  @media screen and (max-width: $tablet_800) {
+    align-items: center;
+  }
+  
+  svg{
+    width: 20px;
+  }
+
+  a:hover{
+    color: $color_light_blue;
+  }
+}
+
+.footer_icons{
+  display: grid;
+  justify-content: left;
+  
+
+  @media screen and (max-width: $tablet_800) {
+    justify-content: center;
+  }
+
+  .footer_svg{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 0.1fr 5fr;
+
+    svg{
+      display: grid;
+      align-items: top;
+    }
+  
+    .footer_p{
+      p{
+        display: grid;
+        justify-content: left;
+      }
+    }
+  }
+
+  a:hover{
+    color: $color_light_blue;
+  }
+}
+
+// Footer botton
+.bg_footer_botton{
+  background: $color_dark_blue;
+}
+
+.footer_botton{
+  display: grid;
+  gap: 5px;
+  text-align: center;
+  color: white;
+  margin: 15px 0;
+
+  a{
+    color: white;
+    transition: .5s ease;
+  }
+
+  a:hover{
+    color: $color_light_blue;
+  }
+}

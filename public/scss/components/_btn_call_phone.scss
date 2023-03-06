@@ -1,0 +1,127 @@
+@import "./vars";
+
+.btn_form_call {
+  position: fixed;
+  z-index: 9999;
+  background-color: #ffff;
+  bottom: 0;
+  left: 20px;
+  padding: 10px 0;
+  border-radius: 15px 15px 0 0;
+  display: grid;
+  grid-row-gap: 1.5em;
+  overflow: hidden;
+  height: 20px;
+  box-shadow: $shadow;
+  transition: height 0.3s ease;
+
+  @media screen and (max-width: $mobile_600) {
+    height: 15px;
+    padding: 5px;
+  }
+
+  @media screen and (max-width: $mobile_400) {
+    display: none;
+  }
+}
+.btn_form_call.activeFormCall {
+  height: 20em !important;
+}
+.btn_form_call .show {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: center;
+  grid-column-gap: 10px;
+  cursor: pointer;
+}
+.btn_form_call .show svg {
+  width: 20px;
+  fill: $color_dark_blue;
+
+  @media screen and (max-width: $mobile_600) {
+    width: 15px;
+  }
+}
+// .btn_form_call .show svg,
+.btn_form_call .form_call form .send_wa a svg {
+  fill: $color_ws_green;
+  width: 20px;
+}
+.btn_form_call .show .pshow {
+  color: $color_dark_blue;
+  font-weight: 500;
+  font-size: 18px;
+
+  @media screen and (max-width: $mobile_600) {
+    font-size: 16px;
+  }
+}
+.btn_form_call .form_call form {
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 15px;
+}
+.btn_form_call .form_call form select {
+  display: grid;
+  height: 25px;
+  font-size: 15px;
+  padding-left: 5px;
+  background-color: #f2f2f2;
+  color: $color_dark_blue;
+  border-radius: 4px;
+}
+.btn_form_call .form_call form .gruop input {
+  background-color: #f2f2f2;
+  border: none;
+  height: 43px;
+  color: $color_dark_blue;
+  padding-left: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.btn_form_call .form_call form .politicas {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-column-gap: 6px;
+  padding: 0 10px;
+}
+.btn_form_call .form_call form .politicas label {
+  color: $color_dark_blue;
+  font-size: 17px;
+}
+.btn_form_call .form_call form .politicas label a {
+  text-decoration: none;
+  color: $color_dark_blue;
+}
+.btn_form_call .form_call form .gruop .btn_send_call {
+  background-color: $color_ws_green;
+  color: #ffff;
+  padding: 3px 14px;
+  border-radius: 4px;
+  box-shadow: $shadow;
+  cursor: pointer;
+  font-size: 22px;
+}
+.btn_form_call .form_call form .gruop button {
+  background-color: transparent;
+  border: none;
+}
+.btn_form_call .form_call form .gruop button img {
+  cursor: pointer;
+  width: 3.5em;
+}
+.btn_form_call .form_call form .send_wa a {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-column-gap: 12px;
+  text-decoration: none;
+  color: $color_dark_blue;
+  font-weight: 700;
+  font-size: 16px;
+}
+.btn_form_call .form_call form .send_wa a img {
+  width: 100%;
+}

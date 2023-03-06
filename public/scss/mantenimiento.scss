@@ -1,0 +1,96 @@
+@import "./components/layout";
+@import "./components/btn_top";
+@import "./components/header";
+@import "./components/header_icons";
+@import "./components/nav";
+@import "./components/card_blue";
+@import "./components/card_orage";
+@import "./components/form";
+@import "./components/section_info";
+@import "./components/fotter";
+@import "./components/vars";
+@import "./components/btn_call_phone";
+@import "./components/card_title";
+
+.bg_card_green{
+  background: #e9fbe8;
+  border-radius: 5px;
+}
+
+.svg_green{
+  svg{
+    fill: green;
+  }
+}
+
+.card_grid_price_green{
+  background: linear-gradient(#01870a, #6cd773);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 5px 5px 0;
+}
+
+.bg_card_blue{
+  background: #eeedfc;
+}
+
+.svg_blue{
+  svg{
+    fill: #0900c0;
+  }
+}
+
+.card_grid_price_blue{
+  background: linear-gradient(#0900c0, #9f9ce2);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 5px 5px 0;
+
+  @media screen and (max-width: 1200px) {
+    height: 250px;
+  }
+}
+
+.card_footer_color{
+  p{
+    color: white;
+    padding: 0 0 5px 0;
+  }
+}
+
+// Seccion de la Barra
+.bg_section_bar {
+  background-image: url(../img/servynet-agencia-marketing-digital-posicionamiento-seo-fondo-programacion.webp);
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h2 {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 35px;
+    text-shadow: $shadow_text;
+  }
+
+  p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: $shadow_text;
+  }
+
+  @media screen and (max-width: $tablet_700) {
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}

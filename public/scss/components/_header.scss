@@ -1,0 +1,58 @@
+@import "./vars";
+
+
+.banner{
+  position: relative;
+  height: 450px;
+}
+
+.header_img{
+  height: 100%;
+  width: 100%;
+
+  img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    object-position: center;
+  }
+}
+
+.header{
+  top: 300px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-0%, -50%);
+
+  @media screen and (max-width: $tablet_1000){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    position: relative;
+    font-size: 35px;
+    text-shadow: 1px 1px 4px white;
+  }
+
+  p {
+    color: $color_dark_blue;
+    font-size: 30px;
+    text-shadow: 1px 1px 4px white;
+  }
+
+  @media screen and (max-width: $tablet_1000){
+    
+    h1{
+      top: none;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

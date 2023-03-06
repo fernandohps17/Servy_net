@@ -1,0 +1,138 @@
+// Seccion de grilla
+.section_us {
+  display: grid;
+  grid-auto-flow: column;
+  margin: 50px 0;
+  gap: 50px;
+
+  img{
+    object-fit: cover;
+  }
+
+  .section_us_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    line-height: 23px;
+  }
+
+  .imagen-altura{
+    img{
+      height: 100%;
+      width: 100%;
+      max-height: 700px;
+      max-width: 500px;
+      border-radius: 5px;
+    }
+  }
+
+  .--show_title{
+    h2{
+      font-size: 22px;
+    }
+  }
+
+  .imagen--show{
+    img {
+      height: 400px;
+      // max-height: 400px;
+      // max-width: 550px;
+      width: 500px;
+      border-radius: 4px;
+
+      @media screen and (max-width: $mobile_600) {
+        height: 100%;
+        max-height: 300px;
+        max-width: 450px;
+        width: 100%;
+      }
+    } 
+  }
+
+  .show{
+    @media screen and (max-width: $tablet_1200) {
+      grid-row: 1/2;
+    }
+  }
+
+  .show_2{
+    @media screen and (max-width: $tablet_1200) {
+    grid-row: 1/2;
+    }
+  }
+
+  h2 {
+    color: $color_dark_blue;
+    font-weight: 200;
+    font-size: 22px;
+
+    @media screen and (max-width: $mobile_662) {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+
+  h3{
+    color: $color_light_blue;
+    font-weight: 200;
+    font-size: 25px;
+
+    @media screen and (max-width: $mobile_662) {
+      text-align: center;
+
+    }
+  }
+
+  .enlace_us{
+    text-align: center;
+    margin: 10px 0;
+
+    a{
+      text-decoration: none;
+      color: white;
+      background: $color_dark_blue;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: 600;
+      box-shadow: $shadow;
+      width: 400px;
+      transition: .5s ease;
+
+      @media screen and (max-width: $mobile_442) {
+        font-size: 12px;
+      }
+    }
+    a:hover{
+      background: $color_light_blue;
+    }
+  }
+
+  svg{
+    @media screen and (max-width: $mobile_600) {
+      text-align: center;
+    }
+  }
+
+  picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    height: 100%;
+    max-height: 400px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 4px;
+  } 
+
+  @media screen and (max-width: $tablet_1200) {
+    grid-auto-flow: row;
+  }
+}
+
+.show{
+  color: white;
+}

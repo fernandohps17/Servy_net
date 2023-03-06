@@ -1,0 +1,57 @@
+.container_servicio_top_orage {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+  justify-content: start;
+  padding: 10px 30px;
+
+  @media screen and (max-width: $tablet_1200) {
+    justify-content: center;
+  }
+
+  @media screen and (max-width: $tablet_700) {
+    justify-content: start;
+  }
+  
+  svg {
+    width: 25px;
+    text-align: center;
+    fill: $color_dark_orage;
+  }
+  
+  p{
+    display: grid;
+  }
+  
+  span{
+    color: #00006600;
+  }
+  
+}
+
+.bg_card_orage{
+  background: $color_ultra_light_orage;
+}
+
+.bg_card_orage_footer{
+  background: $gradient_orage;
+}
+
+.card_grid{
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1fr;
+  
+  @media screen and (max-width: $tablet_1200) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card_grid_content{
+  padding: 10px 0;
+}
+
+.card_grid_image{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}

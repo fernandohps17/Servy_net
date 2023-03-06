@@ -1,0 +1,78 @@
+// Seccion de grilla
+.bg_grilla{
+  background: $color_ultra_light_blue;
+}
+
+.section_us {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 50px;
+  margin: 50px 0;
+
+  .section_us_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .imagen--show{
+    img {
+      height: 100%;
+      max-height: 400px;
+      max-width: 550px;
+      width: 100%;
+      border-radius: 4px;
+    } 
+  }
+
+  .show{
+    @media screen and (max-width: $tablet_1200) {
+      grid-row: 2;
+    }
+  }
+
+  h2 {
+    color: $color_dark_blue;
+    font-weight: 200;
+    font-size: 25px;
+
+    @media screen and (max-width: $mobile_600) {
+      text-align: center;
+    }
+  }
+
+  h3{
+    color: $color_light_blue;
+    font-weight: 200;
+    font-size: 25px;
+
+    @media screen and (max-width: $mobile_600) {
+      text-align: center;
+    }
+  }
+
+  svg{
+    @media screen and (max-width: $mobile_600) {
+      text-align: center;
+    }
+  }
+
+  picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    height: 100%;
+    max-height: 400px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 4px;
+  } 
+
+  @media screen and (max-width: $tablet_1200) {
+    grid-auto-flow: row;
+  }
+}

@@ -1,0 +1,41 @@
+// Secion de los iconos principales
+.header_icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 40px 0px;
+
+  h2 {
+    font-size: 19px;
+    color: $color_dark_blue;
+    text-align: center;
+  }
+
+  p{
+    color: $color_dark_blue;
+  }
+  
+  @media screen and (max-width: $tablet_900) {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+}
+
+.bg_light_blue {
+  background: $color_ultra_light_blue;
+}
+
+.header_icon {
+  text-align: center;
+
+  img{
+    width: 110px;
+    svg{
+      fill: $color_dark_blue;
+    }
+  }
+  
+  svg {
+    width: 70px;
+    fill: $color_dark_blue;
+  }
+}

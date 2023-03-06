@@ -1,0 +1,94 @@
+@import "./components/layout";
+@import "./components/btn_top";
+@import "./components/header";
+@import "./components/header_icons";
+@import "./components/nav";
+@import "./components/card_blue";
+@import "./components/card_orage";
+@import "./components/form";
+@import "./components/section_info";
+@import "./components/fotter";
+@import "./components/vars";
+@import "./components/btn_call_phone";
+@import "./components/section_icons_social";
+@import "./components/card_title";
+
+// Tarjetas que esta en horizontal
+.card_grid{
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1fr;
+  
+  @media screen and (max-width: $tablet_1200) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card_grid_content{
+  padding: 10px 0;
+}
+
+.card_grid_image{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg_card_green{
+  background: #e9fbe8;
+  border-radius: 5px;
+}
+
+.svg_green{
+  svg{
+    fill: $color_dark_green;
+  }
+}
+
+.card_grid_price_green{
+  background: $gradient_green;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 5px 5px 0;
+}
+
+.bg_card_blue{
+  background: $bg_light_blue;
+}
+
+.svg_blue{
+  svg{
+    fill: $color_dark_blue_secundario;
+  }
+}
+
+.card_grid_price_blue{
+  background: $gradient_blue_secundario;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 5px 5px 0;
+}
+
+.card_icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 10px;
+}
+
+.icon{
+  display: grid;
+  // justify-content: center;  
+  
+  svg{
+    width: 60px;
+    fill: $color_dark_blue;
+    margin: auto;
+  }
+
+  h2{
+    color: $color_light_blue;
+    font-weight: 600;
+    font-size: 20px;
+  }
+} 

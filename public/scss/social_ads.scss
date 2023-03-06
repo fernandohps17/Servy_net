@@ -1,0 +1,223 @@
+@import "./components/layout";
+@import "./components/btn_top";
+@import "./components/header";
+@import "./components/header_icons";
+@import "./components/nav";
+@import "./components/card_blue";
+@import "./components/form";
+@import "./components/section_info";
+@import "./components/fotter";
+@import "./components/vars";
+@import "./components/btn_call_phone";
+@import "./components/section_icons_social";
+@import "./components/card_title";
+
+.container_servicio_top_morado {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+  justify-content: start;
+  padding: 10px 30px;
+
+  @media screen and (max-width: $tablet_1200) {
+    justify-content: center;
+  }
+
+  @media screen and (max-width: $tablet_700) {
+    justify-content: start;
+  }
+  
+  svg {
+    width: 25px;
+    text-align: center;
+    fill: #2a215a;
+  }
+  
+  p{
+    display: grid;
+  }
+  
+  span{
+    color: #00006600;
+  }
+  
+}
+
+.bg_morado{
+  background: $color_ultra_light_morado;
+  border-radius: 5px;
+}
+
+.bg_morado_footer{
+  background: $gradient_morado;
+}
+
+.card_footer_morado{
+  text-align: center;
+  padding: 20px;
+  line-height: 15px;
+  height: 120px;
+  border-radius: 5px;
+
+  h2{
+    color: white;
+  }
+
+  p{
+    color: $color_dark_blue;
+  }
+
+  a{
+    color: white;
+    background: $color_dark_morado;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: $shadow;
+    transition: .5s ease;
+  }
+
+  a:hover{
+    background: $color_light_morado;
+  }
+
+  .botton{
+    margin-bottom: 25px;
+  }
+}
+
+.container_servicio_top_social{
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+  justify-content: start;
+  padding: 0 30px;
+
+  svg {
+    width: 25px;
+    text-align: center;
+    fill: $color_dark_blue;
+  }
+}
+
+.content_auditoria_title{
+
+  h2{
+    color: white;
+  }
+}
+
+.section_us_content_botton{
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  position: relative;
+
+  @media screen and (max-width: $mobile_660) {
+    grid-template-columns: 1fr;
+  }
+
+  img{
+    position: absolute;
+    width: 135px;
+    
+    @media screen and (max-width: $mobile_660) {
+      display: none;
+    }
+  }
+}
+
+.content_auditoria{
+  background: $color_light_blue;
+  padding: 20px;
+  border-radius: 5px;
+  width: 450px;
+
+  @media screen and (max-width: $mobile_660) {
+    width: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.content_auditoria_lista{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 0;
+  margin: 0;
+  line-height: 15px;
+
+  @media screen and (max-width: $mobile_600) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.content_auditoria_lista_text{
+  
+  p{
+    font-size: 15px;
+  }
+}
+
+.enlace{
+  display: grid;
+  
+  align-items: center;
+  
+  a{
+    border-radius: 5px;
+    box-shadow: $shadow;
+    padding: 10px 20px;
+    background: $color_dark_blue;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 90px;
+    transition: .5s ease;
+
+    @media screen and (max-width: $mobile_600) {
+      margin: auto;
+    }
+  }
+
+  a:hover{
+    background: $color_light_blue;
+  }
+}
+
+// Secion de los iconos bottom
+.bottom_icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 40px 0px;
+
+  h2 {
+    font-size: 19px;
+    
+    text-align: center;
+  }
+  
+  @media screen and (max-width: $tablet_900) {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+}
+
+.bottom_icon {
+  text-align: center;
+  
+  img{
+    width: 110px;
+    svg{
+      fill: $color_light_blue;
+    }
+  }
+  
+  svg {
+    width: 70px;
+    fill: $color_light_blue;
+    padding-bottom: 10px;
+  }
+}

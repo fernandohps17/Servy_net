@@ -1,0 +1,53 @@
+.bg_section_services_icon {
+  background: $color_dark_blue;
+}
+
+.section_services_icon_title{
+  padding: 40px 0 20px 0;
+
+  @media screen and (max-width: $mobile_600){
+    text-align: center;
+  }
+
+  h2{
+    color: white;
+    font-weight: 300;
+  }
+  h3{
+    color: $color_light_blue;
+    font-size: 25px;
+  }
+}
+
+.section_services_icon_icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 40px 0px;
+  gap: 40px;
+
+  h2 {
+    font-size: 19px;
+    color: $color_light_blue;
+  }
+
+  p{
+    color: white;
+  }
+  
+  @media screen and (max-width: $tablet_900) {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+}
+
+.section_services_icon {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  gap: 10px;
+  
+  svg {
+    width: 60px;
+    fill: white;
+  }
+}

@@ -1,0 +1,37 @@
+// Secion de los iconos principales
+.bg_light_blue {
+  background: $color_ultra_light_blue;
+}
+
+.header_icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 40px 0px;
+  gap: 40px;
+
+  h2 {
+    font-size: 19px;
+    color: $color_dark_blue;
+  }
+
+  p{
+    color: $color_dark_blue;
+  }
+  
+  @media screen and (max-width: $tablet_900) {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+}
+
+.header_icon {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  gap: 10px;
+  
+  svg {
+    width: 60px;
+    fill: $color_dark_blue;
+  }
+}

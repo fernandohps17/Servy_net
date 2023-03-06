@@ -1,0 +1,253 @@
+@import "./vars";
+
+// Section del Form
+.bg_form{
+  background: url(/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-fondo-formulario.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form{
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px 0;
+
+  @media screen and (max-width: $tablet_1200){
+    grid-template-columns: 1fr;
+  }
+}
+
+.form_contact{
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  // gap: 19px;
+
+  @media screen and (max-width: $tablet_1200){
+    text-align: center;
+  }
+}
+
+.form_contact_content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.form_contact_phone {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 15px;
+  align-items: center;
+  justify-content: start;
+  color: #fff;
+
+  @media screen and (max-width: $tablet_1200) {
+    display: grid;
+    justify-content: end;
+  } 
+
+  @media screen and (max-width: $mobile_600) {
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  svg {
+    width: 20px;
+    margin: auto;
+    fill: #fff;
+    align-items: center;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: .5s ease;
+  }
+  
+  a:hover{
+    color: $color_light_blue;
+  }
+  
+  span{
+    @media screen and (max-width: $tablet_1200) {
+      display: grid;
+      grid-auto-flow: column;
+      display: none;
+    } 
+
+    @media screen and (max-width: $tablet_1000){
+      display: none;
+    }
+    
+    @media screen and (max-width: $tablet_900){
+      display: grid;
+      grid-auto-flow: column;
+      text-align: center;
+      gap: 10px;
+    }
+
+    @media screen and (max-width: $tablet_814) {
+      display: none;
+    }
+
+    @media screen and (max-width: $mobile_500) {
+      display: none;
+    } 
+  }
+}
+
+.form_content_ws {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-gap: 5px;
+  justify-content: start;
+  transition: .3s ease;
+  cursor: pointer;
+
+  @media screen and (max-width: $mobile_580) {
+    display: grid;
+    grid-auto-flow: row;
+    
+    // svg {
+    //   display: grid;
+    //   justify-content: center;
+    //   align-items: center;
+    //   text-align: center;
+    // }
+  } 
+
+  svg {
+    width: 20px;
+    fill: $color_ws_green;
+    margin: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $color_ws_green;
+    font-size: 16px;
+    transition: .5s ease;
+  }
+  
+  a:hover{
+    color: $color_ws_green_hover;
+  }
+}
+
+.form_title{
+  color: white;
+  font-size: 25px;
+  margin: 25px 0;
+}
+
+.form_subtitle{
+  color: white;
+  font-size: 17px;
+}
+
+.section_from_uno{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+
+  @media screen and (max-width: $mobile_450) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.section_form_inputs {
+  gap: 10px;
+
+  label {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 5px;
+  }
+}
+
+.section_form_inputs_encabezado {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+
+  input {
+    border: none;
+    height: 30px;
+    outline: none;
+    padding-left: 12px;
+  }
+
+  #color {
+    color: gray;
+  }
+}
+
+.section_form_inputs_botones {
+  display: grid;
+  gap: 20px;
+  grid-auto-flow: column;
+  justify-content: end;
+  grid-column: 1/4;
+
+  a {
+    color: white;
+    transition: .5s ease;
+  }
+
+  @media screen and (max-width: $tablet_700) {
+    grid-column: 1/2;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+  }
+}
+
+.section_form_terminos {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  @media screen and (max-width: $mobile_436) {      
+    grid-template-columns: 1fr 10fr;
+    justify-content: start;
+  }
+
+  input {
+    width: 25px;
+    cursor: pointer;
+  }
+
+  a:hover{
+    color: $color_dark_blue;
+    transition: .5s ease;
+  }
+}
+
+.section_form_boton {
+  display: grid;
+
+  button {
+    padding: 5px 30px;
+    color: white;
+    background: $color_dark_blue;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s ease;
+
+    &:hover {
+      background: $color_light_blue;
+    }
+  }
+}
