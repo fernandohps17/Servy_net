@@ -49,7 +49,7 @@
   @media screen and (max-width: $tablet_1000){
     
     h1{
-      top: none;
+      top: unset;
       display: grid;
       justify-content: center;
       align-items: center;

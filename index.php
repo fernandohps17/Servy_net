@@ -16,7 +16,7 @@ require_once "./comons/version_css_js.php";
 <meta name="description" content="En Servinet realizamos diseños y programacion web en España.">
 
 <link rel="stylesheet" href="./public/css/home.css?ver=<?php echo $ver ?>">
-<link rel="canonical" href="https://www.servynet.es/">
+<link rel="canonical" href="https://www.servynet.es/inicio">
 
 <link rel="apple-touch-icon" href="/public/icon/favicon.ico">
 <link rel="apple-touch-startup-image" href="/public/icon/favicon.ico">
@@ -30,13 +30,13 @@ require_once "./comons/version_css_js.php";
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
     "name": "Servynet",
-    "image": "https://www.servynet.es/public/img/...",
-    "telephone": ["34 956 941 542"],
+    "image": "https://www.servynet.es/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-logo-servynet.webp",
+    "telephone": ["34 856 500 700"],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "C/ Jose Garzon, 24 11100 San Fernando, Cadiz"
     },
-    "url": "https://www.servynet.es/"
+    "url": "https://www.servynet.es/inicio"
   }
 </script>
 </head>
@@ -55,11 +55,6 @@ require_once "./comons/version_css_js.php";
         <p>desde 35€/mes</p>
       </div>
       <div class="header_img">
-        <!-- <picture class="picture-defer">
-          <source type='image/webp' srcset="/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-inicio-mobile.webp" media="(max-width: 700px)">
-          <img class="image" src="/public/img/default.png" data-img="/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-inicio.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
-        </picture> -->
-
         <picture>
           <source id="sourceMobile" media="(max-width: 600px)" srcset="/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-inicio-mobile.webp">
           <source id="sourceDes" type='image/webp' srcset="/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-inicio.webp">
