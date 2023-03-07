@@ -55,10 +55,15 @@ require_once "./comons/version_css_js.php";
         <p>desde 35€/mes</p>
       </div>
       <div class="header_img">
-        <picture class="picture-defer">
+        <!-- <picture class="picture-defer">
           <source type='image/webp' srcset="/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-inicio-mobile.webp" media="(max-width: 700px)">
-          <!-- <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-inicio.webp"> -->
           <img class="image" src="/public/img/default.png" data-img="/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-inicio.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
+        </picture> -->
+
+        <picture>
+          <source id="sourceMobile" media="(max-width: 600px)" srcset="/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-inicio-mobile.webp">
+          <source id="sourceDes" type='image/webp' srcset="/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-inicio.webp">
+          <img id="imageDes" class="imageSlider" src="/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-inicio.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
         </picture>
       </div>
     </div>
@@ -374,6 +379,7 @@ require_once "./comons/version_css_js.php";
   </main>
 
   <script src="./public/js/menu.js?ver=<?php echo $ver ?>"></script>
+  <script src="./public/js/slide.js?ver=<?php echo $ver ?>"></script>
   <script src="./public/js/recatpcha.js?ver=<?php echo $ver ?>"></script>
   <script src="./public/js/carga_diferida.js?ver=<?php echo $ver ?>"></script>
 </body>
