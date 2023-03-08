@@ -179,24 +179,24 @@ require_once "./comons/version_css_js.php";
         </header>
 
         <div class="plan_card">
-          <div class="planes">
-            <picture class="picture-defer">
+          <div class="planes position">
+            <picture class="picture-defer position_img">
               <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="./public/img/plan-mantenimiento-basico-web.png">
               <img class="image" src="/public/img/default.png" data-img="./public/img/plan-mantenimiento-basico-web.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
             </picture>
 
             <div class="plan_content">
               <header>
-                <h3>CMS WEB CORPORATIVA</h3>
+                <h3>CMS WEB <br> CORPORATIVA</h3>
                 <h4>Desde 35,00 € al mes</h4>
               </header>
               <p>(Impuestos no incluidos)</p>
-              <a href="">Más Info</a>
+              <a href="/mantenimiento/">Más Info</a>
             </div>
           </div>
 
-          <div class="planes">
-            <picture class="picture-defer">
+          <div class="planes position">
+            <picture class="picture-defer position_img">
               <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="./public/img/plan-basico-google-ads.png">
               <img class="image" src="/public/img/default.png" data-img="./public/img/plan-basico-google-ads.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
             </picture>
@@ -207,7 +207,7 @@ require_once "./comons/version_css_js.php";
                 <h4>Desde 75,00 € al mes</h4>
               </header>
               <p>(Impuestos no incluidos)</p>
-              <a href="">Más Info</a>
+              <a href="/google-ads/">Más Info</a>
             </div>
           </div>
         </div>
@@ -308,7 +308,7 @@ require_once "./comons/version_css_js.php";
               <p>Ofrecemos en conjunto un <strong>servicio global</strong> y completo para tu negocio y optimizamos su buen funcionamiento en la red.</p>
               <p>Nuestro equipo de programadores con más de 15 años de experiencia, se encargarán de la creación y mantenimiento de tu página WEB con la <strong>máxima calidad y profesionalidad</strong>.</p>
               <div class="enlace_servicios">
-                <a href="#">MÁS INFO</a>
+                <a href="/mantenimiento/">MÁS INFO</a>
               </div>
             </div>
           </article>
@@ -339,7 +339,7 @@ require_once "./comons/version_css_js.php";
                 <p>El SEO Off-page se centra en la optimización de los factores externos a tu página web, en la que trabajamos el número de enlaces, la calidad de los mismos, y menciones en medios locales.</p>
               </div>
               <div class="enlace_servicios">
-                <a href="#">MÁS INFO</a>
+                <a href="/posicionamiento/">MÁS INFO</a>
               </div>
             </div>
           </article>
@@ -359,7 +359,7 @@ require_once "./comons/version_css_js.php";
               <p>En Servynet, diseñamos y gestionamos tus campañas de <strong>Google Ads</strong> para aumentar la visibilidad de tu negocio. En nuestra Agencia de Marketing Digital, nos comprometemos con los resultados. En el amplio mundo del Marketing online, nos encargamos de ayudar a las empresas a vender sus servicios o productos de forma que los resultados sean efectivos a corto plazo.</p>
               <p>En la actualidad, el <strong>SEM</strong> es necesario para todas las empresas que ofrecen tanto servicios como productos. En nuestra Agencia de Marketing Digital, durante estos más de 10 años de experiencia, hemos desarrollado una serie de estrategias de marketing que ofrecen al cliente resultados garantizados para el crecimiento de su negocio.</p>
               <div class="enlace_servicios">
-                <a href="#">MÁS INFO</a>
+                <a href="/google-ads/">MÁS INFO</a>
               </div>
             </div>
           </article>

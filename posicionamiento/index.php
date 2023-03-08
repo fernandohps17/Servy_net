@@ -115,12 +115,12 @@ require_once "../comons/version_css_js.php";
 
           <div class="card_top">
 
-            <div class="card_content bg_morado">
-              <picture class="picture-defer">
+            <div class="card_content position bg_morado">
+              <picture class="picture-defer position_img">
                 <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-seo.png">
                 <img class="image" src="/public/img/default.png" data-img="../public/img/plan-seo.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
               </picture>
-              <header>
+              <header class="card_content_title">
                 <h2>PACK SEO</h2>
               </header>
               <hr>
@@ -157,7 +157,7 @@ require_once "../comons/version_css_js.php";
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                   <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                 </svg>
-                <p>Para otras condiciones CONSULTAR.</p>
+                <p>Para otras condiciones CONSULTAR.</p><br><br>
               </div>
 
               <div class="card_footer_morado bg_morado_footer">

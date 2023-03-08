@@ -113,12 +113,12 @@ require_once "../comons/version_css_js.php";
         </header>
         <div class="cards">
           <div class="card_top">
-            <div class="card_content --show shadow">
-              <picture class="picture-defer">
+            <div class="card_content position shadow">
+              <picture class="picture-defer position_img">
                 <source class="image source" width="100" height="100" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/servynet-agencia-marketing-digital-posicionamiento-seo-logo_googleads.webp">
                 <img class="image" width="100" height="100" src="/public/img/default.png" data-img="../public/img/servynet-agencia-marketing-digital-posicionamiento-seo-logo_googleads.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100"><br>
               </picture>
-              <header>
+              <header class="card_content_title">
                 <h2>POSICIONA TU NEGOCIO</h2>
                 <h3>Campañas de Google Ads</h3>
               </header>
@@ -185,65 +185,68 @@ require_once "../comons/version_css_js.php";
               </div>
             </div>
 
-            <div class="card_content --show bg_card_top">
-              <picture class="picture-defer">
-                <source class="image source" width="100" height="100" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/servynet-agencia-marketing-digital-posicionamiento-seo-logo_google_shopping.webp">
-                <img class="image" width="100" height="100" src="/public/img/default.png" data-img="../public/img/servynet-agencia-marketing-digital-posicionamiento-seo-logo_google_shopping.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
-              </picture>
-              <header>
-                <h2>PLAN SHOPPING ORGÁNICO</h2>
-              </header>
-              <hr>
+            <div class="card_content position bg_card_top">
+              <div>
 
-              <div class="container_servicio_top">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                  <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                </svg>
-                <p>Servicio para Tiendas Online</p>
+                <picture class="picture-defer position_img">
+                  <source class="image source" width="100" height="100" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/servynet-agencia-marketing-digital-posicionamiento-seo-logo_google_shopping.webp">
+                  <img class="image" width="100" height="100" src="/public/img/default.png" data-img="../public/img/servynet-agencia-marketing-digital-posicionamiento-seo-logo_google_shopping.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
+                </picture>
+                <header class="card_content_title">
+                  <h2>PLAN SHOPPING ORGÁNICO</h2>
+                </header>
+                <hr>
+  
+                <div class="container_servicio_top">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Servicio para Tiendas Online</p>
+                </div>
+  
+                <div class="container_servicio_top">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Subimos todo sus productos a la Plataforma de Google Shopping</p>
+                </div>
+  
+                <div class="container_servicio_top">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Sin Coste Por Clic y Sin Pagar NADA a Google</p>
+                </div>
+  
+                <div class="container_servicio_top">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Asesoramiento Online para la Optimización de productos</p>
+                </div>
+  
+                <div class="container_servicio_top">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Envío de informes de rendimiento mensual</p>
+                </div>
+  
+                <div class="container_servicio_top">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Sin Comprosimos de Permanencia</p>
+                </div>
+  
+                <div class="container_servicio_top">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Activación del Servicio durante el primer mes de 200 € (Por Campaña)</p>
+                </div>
+  
               </div>
-
-              <div class="container_servicio_top">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                  <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                </svg>
-                <p>Subimos todo sus productos a la Plataforma de Google Shopping</p>
-              </div>
-
-              <div class="container_servicio_top">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                  <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                </svg>
-                <p>Sin Coste Por Clic y Sin Pagar NADA a Google</p>
-              </div>
-
-              <div class="container_servicio_top">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                  <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                </svg>
-                <p>Asesoramiento Online para la Optimización de productos</p>
-              </div>
-
-              <div class="container_servicio_top">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                  <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                </svg>
-                <p>Envío de informes de rendimiento mensual</p>
-              </div>
-
-              <div class="container_servicio_top">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                  <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                </svg>
-                <p>Sin Comprosimos de Permanencia</p>
-              </div>
-
-              <div class="container_servicio_top">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                  <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                </svg>
-                <p>Activación del Servicio durante el primer mes de 200 € (Por Campaña)</p>
-              </div>
-
               <div class="card_footer bg_card_top_footer">
                 <p>Desde</p>
                 <h2>45,00 €/mes</h2>
@@ -255,12 +258,12 @@ require_once "../comons/version_css_js.php";
 
           <div class="cards">
             <div class="card_top">
-              <div class="card_content bg_card_top">
-                <picture class="picture-defer">
+              <div class="card_content position bg_card_top">
+                <picture class="picture-defer position_img">
                   <source class="image source" width="100" height="100" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-basico-google-ads.webp">
                   <img class="image" width="100" height="100" src="/public/img/default.png" data-img="../public/img/plan-basico-google-ads.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
                 </picture>
-                <header>
+                <header class="card_content_title">
                   <h2>PLAN BÁSICO</h2>
                 </header>
                 <hr>
@@ -329,12 +332,12 @@ require_once "../comons/version_css_js.php";
                 </div>
               </div>
 
-              <div class="card_content bg_card_orage">
-                <picture class="picture-defer">
+              <div class="card_content position bg_card_orage">
+                <picture class="picture-defer position_img">
                   <source class="image source" width="100" height="100" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-avanzado-google-ads.webp">
                   <img class="image" width="100" height="100" src="/public/img/default.png" data-img="../public/img/plan-avanzado-google-ads.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
                 </picture>
-                <header>
+                <header class="card_content_title">
                   <h2>PLAN AVANZADO</h2>
                 </header>
                 <hr>

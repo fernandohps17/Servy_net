@@ -114,12 +114,12 @@ require_once "../comons/version_css_js.php";
         <div class="cards">
 
           <div class="card_top">
-            <div class="card_content bg_card_top">
-              <picture class="picture-defer">
+            <div class="card_content position bg_card_top">
+              <picture class="picture-defer position_img">
                 <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-mantenimiento-basico-web.webp">
                 <img class="image" src="/public/img/default.png" data-img="../public/img/plan-mantenimiento-basico-web.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
               </picture>
-              <header>
+              <header class="card_content_title">
                 <h2>PACK BÁSICO</h2>
               </header>
               <hr>
@@ -188,12 +188,12 @@ require_once "../comons/version_css_js.php";
               </div>
             </div>
 
-            <div class="card_content bg_morado">
-              <picture class="picture-defer">
+            <div class="card_content position bg_morado">
+              <picture class="picture-defer position_img">
                 <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-avanzado-virtual-global.webp">
                 <img class="image" src="/public/img/default.png" data-img="../public/img/plan-avanzado-virtual-global.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
               </picture>
-              <header>
+              <header class="card_content_title">
                 <h2>PACK AVANZADO</h2>
               </header>
               <hr>
