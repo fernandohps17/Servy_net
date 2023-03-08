@@ -49,7 +49,7 @@ require_once "../comons/version_css_js.php";
     <!-- Seccion del header -->
     <div class="banner">
       <div class="header">
-        <h1>Campañas en redes sociales </h1>
+        <h1>Campañas en redes sociales</h1>
         <p>Gestionamos tus anuncios de <br> Facebook, Twitter e Instagram</p>
       </div>
       <div class="header_img">

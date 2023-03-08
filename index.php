@@ -50,8 +50,8 @@ require_once "./comons/version_css_js.php";
     <!-- Seccion del header -->
     <div class="banner">
       <div class="header">
-        <h1>Diseñamos tu página web. <br> La mantenemos optimizada </h1>
-        <p>desde 35€/mes</p>
+        <h1 id="title">Diseñamos tu página web. <br> La mantenemos optimizada </h1>
+        <p id="subtitle">desde 35€/mes</p>
       </div>
       <div class="header_img">
         <picture>
