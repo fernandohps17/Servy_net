@@ -181,7 +181,7 @@ require_once "./comons/version_css_js.php";
         <div class="plan_card">
           <div class="planes position">
             <picture class="picture-defer position_img">
-              <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="./public/img/plan-mantenimiento-basico-web.png">
+              <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="./public/img/plan-mantenimiento-basico-web.webp">
               <img class="image" src="/public/img/default.png" data-img="./public/img/plan-mantenimiento-basico-web.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
             </picture>
 
@@ -197,7 +197,7 @@ require_once "./comons/version_css_js.php";
 
           <div class="planes position">
             <picture class="picture-defer position_img">
-              <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="./public/img/plan-basico-google-ads.png">
+              <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="./public/img/plan-basico-google-ads.webp">
               <img class="image" src="/public/img/default.png" data-img="./public/img/plan-basico-google-ads.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
             </picture>
 
@@ -224,7 +224,7 @@ require_once "./comons/version_css_js.php";
       <div class="content">
         <div class="section_us">
           <picture class="picture-defer imagen--show">
-            <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-inicio-exito.jpg">
+            <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-inicio-exito.webp">
             <img class="image" src="/public/img/default.png" data-img="./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-inicio-exito.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
           </picture>
           <section class="section_us_content">
