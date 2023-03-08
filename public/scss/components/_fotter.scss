@@ -9,7 +9,7 @@
 
 .footer_top{
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 2fr 1.5fr 1fr;
   gap: 70px;
   margin: 30px 0;
   color: white;
@@ -53,6 +53,11 @@
   a:hover{
     color: $color_light_blue;
   }
+}
+
+.modificado{
+  display: grid;
+  grid-auto-flow: row;
 }
 
 .footer_icons{

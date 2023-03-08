@@ -32,6 +32,11 @@
     height: 250px;
     display: flex;
     margin: auto;
+
+    @media screen and (max-width:$mobile_600) {
+      width: 280px;
+      height: 200px;  
+  }
   }
   
   h2{
