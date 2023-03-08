@@ -14,7 +14,6 @@ require_once "../comons/version_css_js.php";
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="description" content="Servinet somos una agencia de programacion en España.">
-<meta name="robots" content="noindex">
 <link rel="stylesheet" href="../public/css/social_ads.css?ver=<?php echo $ver ?>">
 <link rel="canonical" href="https://www.servynet.es/social-ads">
 <link rel="icon" href="../public/icon/favicon.ico">

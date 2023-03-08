@@ -14,7 +14,6 @@ require_once "../comons/version_css_js.php";
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="description" content="En Servinet realizamos paginas web en España.">
-<meta name="robots" content="noindex">
 <link rel="stylesheet" href="../public/css/posicionamiento.css?ver=<?php echo $ver ?>">
 <link rel="icon" href="../public/icon/favicon.ico">
 <link rel="canonical" href="https://www.servynet.es/pocisionamiento">

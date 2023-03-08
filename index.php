@@ -12,7 +12,6 @@ require_once "./comons/version_css_js.php";
 <meta name="HandheldFriend" content="true">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="robots" content="noindex">
 <meta name="description" content="En Servinet realizamos diseños y programacion web en España.">
 
 <link rel="stylesheet" href="./public/css/home.css?ver=<?php echo $ver ?>">
@@ -164,8 +163,8 @@ require_once "./comons/version_css_js.php";
           </div>
 
           <picture class="picture-defer">
-            <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-inicio-agencia.jpg">
-            <img class="image" src="/public/img/default.png" data-img="./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-inicio-agencia.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
+            <source class="image source" type='image/webp' data-img="./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-inicio-agencia.jpg">
+            <img class="image" data-img="./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-inicio-agencia.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
           </picture>
         </section>
       </div>
@@ -181,8 +180,8 @@ require_once "./comons/version_css_js.php";
         <div class="plan_card">
           <div class="planes position">
             <picture class="picture-defer position_img">
-              <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="./public/img/plan-mantenimiento-basico-web.webp">
-              <img class="image" src="/public/img/default.png" data-img="./public/img/plan-mantenimiento-basico-web.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
+              <source class="image source" type='image/webp' data-img="./public/img/plan-mantenimiento-basico-web.webp">
+              <img class="image" data-img="./public/img/plan-mantenimiento-basico-web.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
             </picture>
 
             <div class="plan_content">
@@ -197,8 +196,8 @@ require_once "./comons/version_css_js.php";
 
           <div class="planes position">
             <picture class="picture-defer position_img">
-              <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="./public/img/plan-basico-google-ads.webp">
-              <img class="image" src="/public/img/default.png" data-img="./public/img/plan-basico-google-ads.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
+              <source class="image source" type='image/webp' data-img="./public/img/plan-basico-google-ads.webp">
+              <img class="image" data-img="./public/img/plan-basico-google-ads.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
             </picture>
 
             <div class="plan_content">
@@ -259,7 +258,6 @@ require_once "./comons/version_css_js.php";
               La <strong>calidad en el servicio</strong> es nuestra prioridad, y ha sido nuestro principal esfuerzo durante años, consiguiendo ofrecer una experiencia muy satisfactoria para nuestros cliente. Debido a este <strong>compromiso de calidad</strong> con el cliente, ofrecemos un servicio integral de <strong>desarrollo WEB y publicidad en internet.</strong>
             </p>
           </section>
-
           <picture class="picture-defer">
             <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-inicio-mesa.png">
             <img class="image" src="/public/img/default.png" data-img="./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-inicio-mesa.webp" alt="Expertos en programacion" title="Servynet agencia de programacion" width="100" height="100">
@@ -299,7 +297,11 @@ require_once "./comons/version_css_js.php";
                 <img class="image" src="/public/img/default.png" data-img="./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-fondo-diseno-y-mantenimiento.webp" alt="Expertos en marketing" title="Servynet agencia de programacion" width="100" height="100">
               </picture>
               <header>
-                <h2>Diseño y <br> Mantenimiento Web</h2>
+                <h2>
+                  <a href="/mantenimiento/">
+                    Diseño y <br> Mantenimiento Web
+                  </a>
+                </h2>
               </header>
             </div>
             <div class="services_agencia_content">
@@ -320,7 +322,11 @@ require_once "./comons/version_css_js.php";
                 <img class="image" src="/public/img/default.png" data-img="./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-fondo-posicionamiento.webp" alt="Expertos en marketing" title="Servynet agencia de programacion" width="100" height="100">
               </picture>
               <header>
-                <h2>Posicionamiento Web</h2>
+                <h2>
+                  <a href="/posicionamiento/">
+                    Posicionamiento Web
+                  </a>
+                </h2>
               </header>
             </div>
             <div class="services_agencia_content">
@@ -351,7 +357,11 @@ require_once "./comons/version_css_js.php";
                 <img class="image" src="/public/img/default.png" data-img="./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-fondo-sem.webp" alt="Expertos en marketing" title="Servynet agencia de programacion" width="100" height="100">
               </picture>
               <header>
-                <h2>SEM</h2>
+                <h2>
+                  <a href="/google-ads/">
+                    SEM
+                  </a>
+                </h2>
               </header>
             </div>
             <div class="services_agencia_content">
@@ -378,4 +388,5 @@ require_once "./comons/version_css_js.php";
   <script src="./public/js/recatpcha.js?ver=<?php echo $ver ?>"></script>
   <script src="./public/js/carga_diferida.js?ver=<?php echo $ver ?>"></script>
 </body>
+
 </html>
