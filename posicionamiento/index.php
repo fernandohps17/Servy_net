@@ -15,6 +15,7 @@ require_once "../comons/version_css_js.php";
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="description" content="En Servinet realizamos paginas web en España.">
 <link rel="stylesheet" href="../public/css/posicionamiento.css?ver=<?php echo $ver ?>">
+<link rel="stylesheet" href="../public/css/modal_contratar.css?ver=<?php echo $ver ?>">
 <link rel="icon" href="../public/icon/favicon.ico">
 <link rel="canonical" href="https://www.servynet.es/pocisionamiento">
 <link rel="apple-touch-icon" href="../public/icon/favicon.ico">
@@ -165,7 +166,9 @@ require_once "../comons/version_css_js.php";
                   <h2>300,00 €/mes</h2>
                 </header>
                 <p class="botton">(Impuestos no incluidos)</p>
-                <a href="">CONTRATAR</a>
+                <div class="p2">
+                  <p class="modal_active">CONTRATAR</a>
+                </div>
               </div>
             </div>
 
@@ -398,6 +401,7 @@ require_once "../comons/version_css_js.php";
     require_once('../comons/cookies.php');
     require_once('../comons/modal.php');
     require_once('../comons/btn_call_phone.php');
+    require_once('../comons/modal_contratar.php');
     ?>
 
   </main>
@@ -406,6 +410,7 @@ require_once "../comons/version_css_js.php";
   <script src="../public/js/menu.js?ver=<?php echo $ver ?>"></script>
   <script src="../public/js/recatpcha.js?ver=<?php echo $ver ?>"></script>
   <script src="../public/js/carga_diferida.js?ver=<?php echo $ver ?>"></script>
+  <script src="../public/js/modal_contratar.js?ver=<?php echo $ver ?>"></script>
 
 </body>
 </html>

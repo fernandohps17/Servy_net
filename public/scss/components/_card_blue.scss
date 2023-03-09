@@ -143,20 +143,25 @@
       color: $color_dark_blue;
     }
     
-    a{
-      color: white;
-      background: $color_dark_blue;
-      padding: 10px;
-      border-radius: 5px;
-      text-align: center;
-      text-decoration: none;
-      box-shadow: $shadow;
-      transition: .5s ease;
-      font-weight: 600;
-    }
-  
-    a:hover{
-      background: $color_light_blue;
+    .p2{
+      p{
+        color: white;
+        background: $color_dark_blue;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: $shadow;
+        transition: .5s ease;
+        font-weight: 600; 
+        width: 100px; 
+        margin: auto;
+        cursor: pointer;
+      }
+
+      p:hover{
+        background: $color_light_blue;
+      }
     }
   
     .botton{

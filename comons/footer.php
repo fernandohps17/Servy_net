@@ -42,9 +42,9 @@
           <a href="/posicionamiento/"> <strong>POSICIONAMIENTO WEB</strong> </a>
         </div>
         <div class="footer_uno">
-          <a href="/">Aviso Legal</a>
-          <a href="/">Políticas de Cookies</a>
-          <a href="/">Políticas de Privacidad</a>
+          <a href="/aviso-legal/" target="_blank">Aviso Legal</a>
+          <a href="/politicas-cookies/" target="_blank">Políticas de Cookies</a>
+          <a href="/politicas-privacidad/" target="_blank">Políticas de Privacidad</a>
         </div>
       </div>
     </div>

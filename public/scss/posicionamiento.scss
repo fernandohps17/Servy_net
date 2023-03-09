@@ -32,6 +32,7 @@
     height: 250px;
     display: flex;
     margin: auto;
+    object-fit: cover;
 
     @media screen and (max-width:$mobile_600) {
       width: 280px;
@@ -129,19 +130,25 @@
     color: $color_dark_blue;
   }
 
-  a{
-    color: white;
-    background: $color_dark_morado;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: $shadow;
-    transition: .5s ease;
-  }
+  .p2{
+    p{
+      color: white;
+      background: $color_dark_morado;
+      padding: 8px 10px;
+      border-radius: 5px;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: $shadow;
+      transition: .5s ease;
+      font-weight: 600; 
+      width: 100px; 
+      margin: auto;
+      cursor: pointer;
+    }
 
-  a:hover{
+    p:hover{
     background: $color_light_morado;
+    }
   }
   
   .botton{

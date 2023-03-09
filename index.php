@@ -380,6 +380,7 @@ require_once "./comons/version_css_js.php";
     <?php
     require_once('./comons/footer.php');
     require_once('./comons/btn_top.php');
+    require_once('./comons/cookies.php');
     ?>
   </main>
 
@@ -387,6 +388,7 @@ require_once "./comons/version_css_js.php";
   <script src="./public/js/slide.js?ver=<?php echo $ver ?>"></script>
   <script src="./public/js/recatpcha.js?ver=<?php echo $ver ?>"></script>
   <script src="./public/js/carga_diferida.js?ver=<?php echo $ver ?>"></script>
+
 </body>
 
 </html>
