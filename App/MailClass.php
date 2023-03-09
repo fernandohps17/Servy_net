@@ -28,7 +28,7 @@ class MailClass
     $this->configMail->Port       = $this->port;
     $this->configMail->CharSet    = $this->charset;
     $this->configMail->isHTML(true);
-    $this->configMail->setFrom('formularios@hvmrefrigeracion.com', 'Consulta de la WEB servinet.es');
+    $this->configMail->setFrom('formularios@servynet.es', 'Consulta de la WEB servinet.es');
     $this->configMail->AddAddress('info@servynet.es');
   }
 
@@ -37,7 +37,7 @@ class MailClass
   public function contacto($data)
   {
     try {
-      $this->configMail->Subject = "CONTACTO DEL CLIENTE: " . $data['name'] . " ( " . $data['phone'] . " ) -  https://www.hmvrefrigeracion.com/";
+      $this->configMail->Subject = "CONTACTO DEL CLIENTE: " . $data['name'] . " ( " . $data['phone'] . " ) -  https://www.servynet.es/";
       $this->configMail->Body    =
         "	
       <html>
@@ -46,7 +46,7 @@ class MailClass
         </head>
         <body>
           <a href='https://www.servynet.es/'>
-          <img src='https://www.servynet.es/public/img/' alt='logo' title='logo'>
+          <img src='https://www.servynet.es/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-logo-servynet.webp' alt='logo' title='logo'>
           </a>
           <h1>El siguiente cliente ha realizado un contacto:</h1>
           <p> </p>
@@ -56,7 +56,8 @@ class MailClass
           <p><strong>Nombre Cliente: </strong>" . $data['name'] . "</p>
           <p><strong>Teléfono: </strong>" . $data['phone'] . "</p>
           <p><strong>Email: </strong>" . $data['email'] . "</p>
-          <p><strong>Mensaje: </strong>" . $data['message'] . "</p>
+          <p><strong>Url: </strong>" . $data['url'] . "</p>
+          <p><strong>Notas: </strong>" . $data['notas'] . "</p>
           <p></p>
           <p><strong>Aceptada Políticas de Privacidad.</strong></p>
 

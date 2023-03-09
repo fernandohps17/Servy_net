@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="form_form">
-        <form class="section_form_inputs" action="./contact/" method="POST">
+        <form class="section_form_inputs" action="/contact/" method="POST">
           <div class="section_from_uno">
             <label class="section_form_inputs_encabezado">
               Nombre y Apellido
@@ -47,7 +47,7 @@
 
             <label class="section_form_inputs_encabezado">
               URL web a analizar
-              <input type="text" name="name" required>
+              <input type="text" name="url" required>
             </label>
           </div>
 

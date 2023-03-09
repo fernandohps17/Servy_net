@@ -3,7 +3,7 @@ function cargarScriptRecatpcha() {
   var scriptTag = document.createElement("script");
   scriptTag.setAttribute(
     "src",
-    "https://www.google.com/recaptcha/api.js?render=6LfoAEEkAAAAAEuHbyY3VIR7TNDWEPikw2sy5Sfk"
+    "https://www.google.com/recaptcha/api.js?render=6LfAzeAkAAAAAJGPZ7nIBogNiQXIDZiBVLGI7ZZG"
   );
   document.getElementsByTagName("head")[0].appendChild(scriptTag);
 }
@@ -11,7 +11,7 @@ function cargarScriptRecatpcha() {
 function cargarrecaptcha2() {
   grecaptcha.ready(function () {
     grecaptcha
-      .execute("6LfoAEEkAAAAAEuHbyY3VIR7TNDWEPikw2sy5Sfk", {
+      .execute("6LfAzeAkAAAAAJGPZ7nIBogNiQXIDZiBVLGI7ZZG", {
         action: "homepage",
       })
       .then(function (token) {

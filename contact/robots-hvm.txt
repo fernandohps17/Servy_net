@@ -1,6 +1,0 @@
-User-Agent: *
-Disallow: /App/
-Disallow: /contact/
-Disallow: /public/
-
-Sitemap: https://www.hmvrefrigeracion.com/sitemap.xml

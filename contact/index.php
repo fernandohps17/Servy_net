@@ -7,7 +7,7 @@ use App\MailClass;
 $response_recaptcha = $_POST["g-recaptcha-response"];
 
 if (isset($response_recaptcha) && $response_recaptcha) {
-  $secret = "6LfoAEEkAAAAALIaS7wKIX73C2Td7NReVU1RNBGJ";
+  $secret = "6LfAzeAkAAAAAJAYZoQlq2AnpXBir4x3wiU2XLeD";
   $ip = $_SERVER["REMOTE_ADDR"];
   $validation_server = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$response_recaptcha&remoteip=$ip");
 
@@ -15,9 +15,10 @@ if (isset($response_recaptcha) && $response_recaptcha) {
     // obtenemos los datos 
     $data = [
       "name" => htmlentities(addslashes($_POST['name'])),
-      "email" => htmlentities(addslashes($_POST['email'])),
       "phone" => htmlentities(addslashes($_POST['phone'])),
-      "message" => htmlentities(addslashes($_POST['message'])),
+      "email" => htmlentities(addslashes($_POST['email'])),
+      "url" => htmlentities(addslashes($_POST['url'])),
+      "notas" => htmlentities(addslashes($_POST['notas'])),
     ];
 
     // instanciamos la clase

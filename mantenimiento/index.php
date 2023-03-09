@@ -599,7 +599,7 @@ require_once "../comons/version_css_js.php";
               Y como se suele decir, para muestra un botón. Si quieres comprobar por ti mismo el rendimiento de nuestras webs haz click en el siguiente botón.
             </p>
             <div class="enlace_us">
-              <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fwww.servynet.es%2F&form_factor=desktop">COMPROBAR PAGE SPEED CON GOOGLE</a>
+              <a target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fwww.servynet.es%2F&form_factor=desktop">COMPROBAR PAGE SPEED CON GOOGLE</a>
             </div>
           </div>
         </section>
