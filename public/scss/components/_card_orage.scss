@@ -42,7 +42,7 @@
 
 .card_grid{
   display: grid;
-  grid-template-columns: 1fr 2.5fr 1fr;
+  grid-template-columns: 0fr 2.5fr 1fr;
   
   @media screen and (max-width: $tablet_1200) {
     grid-template-columns: 1fr;

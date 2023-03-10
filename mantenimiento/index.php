@@ -432,12 +432,12 @@ require_once "../comons/version_css_js.php";
                       Corrección de errores.
                     </p>
                   </div>
-                  <div class="container_servicio_top_orage svg_green">
+                  <!-- <div class="container_servicio_top_orage svg_green">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                       <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                     </svg>
                     <p>Copias de seguridad de la WEB.</p>
-                  </div>
+                  </div> -->
                   <div class="container_servicio_top_orage svg_green">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                       <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
@@ -460,7 +460,7 @@ require_once "../comons/version_css_js.php";
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                       <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                     </svg>
-                    <p>Las urgencias se tarifican según el plan Programador.</p>
+                    <p>Reparación de la WEB, caída por fallos, los 365 días del años.</p>
                   </div>
                 </div>
                 <div class="card_grid_price_green">

@@ -4,17 +4,18 @@
   grid-auto-flow: column;
   margin: 50px 0;
   gap: 50px;
-
+  
   img{
     object-fit: cover;
   }
-
+  
   .section_us_content {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
     line-height: 23px;
+    justify-content: center;
   }
 
   .imagen-altura{
