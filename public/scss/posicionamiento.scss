@@ -54,7 +54,7 @@
 
 .card_content_title{
   h2{
-    padding: 150px 10px 10px 10px;
+    padding: 130px 10px 10px 10px;
   }
 }
 
@@ -66,7 +66,7 @@
   .position_img{
     img{
       position: absolute;
-      top: -100px;
+      top: -125px;
       left: 0;
       right: 0;
     }
@@ -117,20 +117,21 @@
 
 .card_footer_morado{
   text-align: center;
-  padding: 5px;
-  line-height: 20px;
-  height: 125px;
+  padding: 20px;
+  line-height: 15px;
   border-radius: 0 0 5px 5px;
-
-  h2{
-    color: white;
-  }
+  display: grid;
+  gap: 10px;
 
   p{
     color: $color_dark_blue;
   }
 
   .p2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
     p{
       color: white;
       background: $color_dark_morado;
@@ -141,8 +142,7 @@
       box-shadow: $shadow;
       transition: .5s ease;
       font-weight: 600; 
-      width: 100px; 
-      margin: auto;
+      width: 100px;
       cursor: pointer;
     }
 
@@ -150,9 +150,13 @@
     background: $color_light_morado;
     }
   }
-  
-  .botton{
-    padding-bottom: 15px;
+
+  .p_price{
+
+    p{
+      color: white;
+      font-size: 28px;
+    }
   }
 }
 

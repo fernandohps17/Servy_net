@@ -185,8 +185,8 @@ require_once "../comons/version_css_js.php";
               </div>
             </div>
 
-            <div class="card_content position bg_card_top">
-              <div>
+            <div class="card_content position ">
+              <div class="bg_card_top">
 
                 <picture class="picture-defer position_img">
                   <source class="image source" width="100" height="100" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/servynet-agencia-marketing-digital-posicionamiento-seo-logo_google_shopping.webp">
@@ -247,9 +247,12 @@ require_once "../comons/version_css_js.php";
                 </div>
   
               </div>
+              
               <div class="card_footer bg_card_top_footer">
                 <p>Desde</p>
-                <h2>45,00 €/mes</h2>
+                <div class="p_price">
+                  <p><b>45,00 €/mes</b></p>
+                </div>
                 <p class="botton">(Impuestos no incluidos)</p>
                 <div class="p2">
                     <p class="modal_active">CONTRATAR</a>
@@ -260,15 +263,18 @@ require_once "../comons/version_css_js.php";
 
           <div class="cards">
             <div class="card_top">
-              <div class="card_content position bg_card_top">
-                <picture class="picture-defer position_img">
-                  <source class="image source" width="100" height="100" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-basico-google-ads.webp">
+              <div class="card_content position ">
+                <div class="bg_card_top">
+
+                  <picture class="picture-defer position_img">
+                    <source class="image source" width="100" height="100" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-basico-google-ads.webp">
                   <img class="image" width="100" height="100" src="/public/img/default.png" data-img="../public/img/plan-basico-google-ads.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
                 </picture>
                 <header class="card_content_title">
                   <h2>PLAN BÁSICO</h2>
                 </header>
                 <hr>
+
 
                 <div class="container_servicio_top">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
@@ -316,7 +322,7 @@ require_once "../comons/version_css_js.php";
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                     <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                   </svg>
-                  <p>Sin Compromisos de Permanencia <span>.</span></p>
+                  <p>Sin Compromisos de Permanencia</p>
                 </div>
 
                 <div class="container_servicio_top">
@@ -325,20 +331,25 @@ require_once "../comons/version_css_js.php";
                   </svg>
                   <p>Activación del Servicio durante el primer mes de 200€ (Por Campaña)</p>
                 </div>
-
+              </div>
+                
                 <div class="card_footer bg_card_top_footer">
                   <p>Desde</p>
-                  <h2>75,00 €/mes</h2>
+                  <div class="p_price">
+                    <p><b>75,00 €/mes</b></p>
+                  </div>
                   <p class="botton">(Impuestos no incluidos)</p>
                   <div class="p2">
                     <p class="modal_active">CONTRATAR</a>
                   </div>
                 </div>
               </div>
+              
+              <div class="card_content position ">
+                <div class="bg_card_orage">
 
-              <div class="card_content position bg_card_orage">
-                <picture class="picture-defer position_img">
-                  <source class="image source" width="100" height="100" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-avanzado-google-ads.webp">
+                  <picture class="picture-defer position_img">
+                    <source class="image source" width="100" height="100" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-avanzado-google-ads.webp">
                   <img class="image" width="100" height="100" src="/public/img/default.png" data-img="../public/img/plan-avanzado-google-ads.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
                 </picture>
                 <header class="card_content_title">
@@ -357,7 +368,7 @@ require_once "../comons/version_css_js.php";
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                     <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                   </svg>
-                  <p>Campañas de Búsquedas, Display, YouTube, Remarketing y Shopping</p>
+                  <p>Campañas de Búsquedas, Display, YouTube, Remarketing</p>
                 </div>
 
                 <div class="container_servicio_top_orage">
@@ -401,10 +412,13 @@ require_once "../comons/version_css_js.php";
                   </svg>
                   <p>Activación del Servicio durante el primer mes de 300 € (Por Campaña)</p>
                 </div>
-
+              </div>
+                
                 <div class="card_footer bg_card_orage_footer">
                   <p>Desde</p>
-                  <h2>90,00 €/mes</h2>
+                  <div class="p_price">
+                    <p><b>90,00 €/mes</b></p>
+                  </div>
                   <p class="botton">(Impuestos no incluidos)</p>
                   <div class="p2">
                     <p class="modal_active">CONTRATAR</a>

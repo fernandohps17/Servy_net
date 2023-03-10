@@ -56,18 +56,20 @@
   text-align: center;
   padding: 20px;
   line-height: 15px;
-  height: 120px;
-  border-radius: 5px;
-
-  h2{
-    color: white;
-  }
+  border-radius: 0 0 5px 5px;
+  display: grid;
+  gap: 10px;
+  position: relative;
 
   p{
     color: $color_dark_blue;
   }
 
   .p2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
     p{
       color: white;
       background: $color_dark_morado;
@@ -79,7 +81,7 @@
       transition: .5s ease;
       font-weight: 600; 
       width: 100px; 
-      margin: auto;
+      // margin: auto;
       cursor: pointer;
     }
 
@@ -88,8 +90,12 @@
     }
   }
 
-  .botton{
-    margin-bottom: 25px;
+  .p_price{
+
+    p{
+      color: white;
+      font-size: 25px;
+    }
   }
 }
 
@@ -168,10 +174,9 @@
 
 .enlace{
   display: grid;
-  
   align-items: center;
   
-  a{
+  p{
     border-radius: 5px;
     box-shadow: $shadow;
     padding: 10px 20px;
@@ -182,13 +187,14 @@
     text-align: center;
     width: 90px;
     transition: .5s ease;
+    cursor: pointer;
 
     @media screen and (max-width: $mobile_600) {
       margin: auto;
     }
   }
 
-  a:hover{
+  p:hover{
     background: $color_light_blue;
   }
 }

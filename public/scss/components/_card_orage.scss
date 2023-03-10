@@ -5,14 +5,6 @@
   justify-content: start;
   padding: 10px 30px;
 
-  @media screen and (max-width: $tablet_1200) {
-    justify-content: center;
-  }
-
-  @media screen and (max-width: $tablet_700) {
-    justify-content: start;
-  }
-  
   svg {
     width: 25px;
     text-align: center;
@@ -32,6 +24,17 @@
 .bg_card_orage{
   background: $color_ultra_light_orage;
 }
+
+// .position_footer{
+//   position: relative;
+// }
+
+// .card_footer{
+//   position: absolute;
+//   bottom: 0;
+//   right: 0;
+//   left: 0;
+// }
 
 .bg_card_orage_footer{
   background: $gradient_orage;

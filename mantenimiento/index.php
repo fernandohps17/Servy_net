@@ -169,10 +169,10 @@ require_once "../comons/version_css_js.php";
               </div>
               <div class="card_footer bg_card_top_footer">
                 <p>Desde</p>
-                <header>
-                  <h2>35,00 €/mes</h2>
-                </header>
-                <p class="botton">(Impuestos no incluidos)</p>
+                <div class="p_price">
+                  <p><b>35,00 €/mes</b></p>
+                </div>
+                <p>(Impuestos no incluidos)</p>
                 <div class="p2">
                   <p class="modal_active">CONTRATAR</a>
                 </div>
@@ -239,157 +239,154 @@ require_once "../comons/version_css_js.php";
               </div>
               <div class="card_footer bg_card_top_footer">
                 <p>Desde</p>
-                <header>
-                  <h2>50,00 €/mes</h2>
-                  </heade>
-                  <p class="botton">(Impuestos no incluidos)</p>
+                <div class="p_price">
+                  <p><b>50,00 €/mes</b></p>
+                </div>
+                  <p>(Impuestos no incluidos)</p>
                   <div class="p2">
-                    <p class="modal_active">CONTRATAR</a>
+                    <p class="modal_active">CONTRATAR</p>
                   </div>
               </div>
             </div>
-          </div>
-
-          <div class="cards">
-            <div class="card_top">
-              <div class="card_content position bg_card_orage">
-                <picture class="picture-defer position_img">
-                  <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-mantenimiento-avanzado-web.webp">
-                  <img class="image" src="/public/img/default.png" data-img="../public/img/plan-mantenimiento-avanzado-web.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
-                </picture>
-                <div>
-                  <header class="card_content_title">
-                    <h2>CMS WEB CORPORATIVA</h2>
-                  </header>
-                  <hr>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Para WEB corporativa realizada con CMS sin tienda ON-LINE o catálogo de productos instalado.</p>
-                  </div>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Sitio WEB actualizado y optimizado para disminuir posibles hackeos. (Reparación por errores de plugins abandonados o modificados se tarifica por horas de trabajo)</p>
-                  </div>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Actualizaciones de versiones de Wordpress, Prestashop, Magento, etc...</p>
-                  </div>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Actualización de plugins o módulos.</p>
-                  </div>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Actualizaciones de servidor, código HTML, PHP, versiones...</p>
-                  </div>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Copias de seguridad WEB y base de datos.</p>
-                  </div>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Horas de desarrollo, programación y cambios en la WEB a 35 € + IVA/Hora.</p>
-                  </div>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Las urgencias se tarifican según el plan Programador.</p>
-                  </div>
+            <div class="card_content position bg_card_orage plan_web_avanzado">
+              <picture class="picture-defer position_img">
+                <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-mantenimiento-avanzado-web.webp">
+                <img class="image" src="/public/img/default.png" data-img="../public/img/plan-mantenimiento-avanzado-web.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
+              </picture>
+              <div class="position_footer">
+                <header class="card_content_title">
+                  <h2>MANTENIMIENTO CMS WEB AVANZADO</h2>
+                </header>
+                <hr>
+                <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Todo lo incluido en el plan mantenimiento CMS WEB CORPORATIVA.</p>
                 </div>
+                <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Reparación de la WEB caída por fallos, las 24 horas y 365 días del año.</p>
+                </div>
+                <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Corrección de errores. (Reparación por errores de plugins abandonados o modificados se tarifica por horas de trabajo)</p>
+                </div>
+                <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Trámites y gestiones con empresas del servidor del cliente.</p>
+                </div>
+                <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Monitorización y envíos de Informes mensuales de tráfico.</p>
+                </div>
+                <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Primera hora gratuita para desarrollo, programación y cambios en la WEB (NO ACUMULABLES) y resto a 35 € + IVA/Hora.</p>
+                </div>
+                <!-- <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Horas de desarrollo, programación y cambios en la WEB a 35 € + IVA/Hora.</p>
+                </div>
+                <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Las urgencias se tarifican según el plan Programador.</p>
+                </div> -->
+              </div>
                 <div class="card_footer bg_card_orage_footer">
                   <p>Desde</p>
-                  <header>
-                    <h2>65,00 €/mes</h2>
-                  </header>
-                  <p class="botton">(Impuestos no incluidos)</p>
-                  <div class="p2">
-                    <p class="modal_active">CONTRATAR</a>
+                  <div class="p_price">
+                    <p><b>65,00 €/mes</b></p>
                   </div>
+                
+                <p>(Impuestos no incluidos)</p>
+                <div class="p2">
+                  <p class="modal_active">CONTRATAR</a>
                 </div>
               </div>
-              <div class="card_content position bg_card_orage">
-                <div>
-                  <picture class="picture-defer position_img">
-                    <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-mantenimiento-avanzado-tienda.webp">
-                    <img class="image" src="/public/img/default.png" data-img="../public/img/plan-mantenimiento-avanzado-tienda.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
-                  </picture>
-                  <header class="card_content_title">
-                    <h2>CMS TIENDA ONLINE</h2>
-                  </header>
-                  <hr>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Para CMS de tienda ON-LINE o catálogo de productos. <span>.</span></p>
-                  </div>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Sitio WEB actualizado y optimizado para disminuir posibles hackeos. (Reparación por errores de plugins abandonados o modificados se tarifica por horas de trabajo)</p>
-                  </div>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Actualizaciones de versiones de Wordpress, Prestashop, Magento, etc...</p>
-                  </div>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Actualizaciones de plugins o módulos.</p>
-                  </div>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Actualizaciones de Servidor, código HTML, PHP, versiones...</p>
-                  </div>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Copias de seguridad de la WEB.</p>
-                  </div>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Horas de desarrollo, programación y cambios en la WEB a 35 € + IVA/Hora.</p>
-                  </div>
-                  <div class="container_servicio_top_orage">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Las urgencias se tarifican según el plan Programador.</p>
-                  </div>
+            </div>
+            <div class="card_content position bg_card_orage">
+              <div>
+                <picture class="picture-defer position_img">
+                  <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-mantenimiento-avanzado-tienda.webp">
+                  <img class="image" src="/public/img/default.png" data-img="../public/img/plan-mantenimiento-avanzado-tienda.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
+                </picture>
+                <header class="card_content_title">
+                  <h2>MANTENIMIENTO CMS TIENDA ONLINE AVANZADO</h2>
+                </header>
+                <hr>
+                <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Todo lo incluido en el plan mantenimiento Básico CMS TIENDA ONLINE.</p>
                 </div>
-                <div class="card_footer bg_card_orage_footer">
-                  <p>Desde</p>
-                  <header>
-                    <h2>85,00 €/mes</h2>
-                  </header>
-                  <p class="botton">(Impuestos no incluidos)</p>
-                  <div class="p2">
-                    <p class="modal_active">CONTRATAR</a>
-                  </div>
+                <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Reparación de la WEB caída por fallos, las 24 horas y 365 días del año.</p>
+                </div>
+                <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Corrección de errores. (Reparación por errores de plugins abandonados o modificados se tarifica por horas de trabajo)</p>
+                </div>
+                <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Trámites y gestiones con empresas del servidor del cliente.</p>
+                </div>
+                <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Monitorización y envíos de Informes mensuales de tráfico.</p>
+                </div>
+                <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Primera hora gratuita para desarrollo, programación y cambios en la WEB (NO ACUMULABLES) y resto a 35 € + IVA/Hora.</p>
+                </div>
+                <!-- <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Horas de desarrollo, programación y cambios en la WEB a 35 € + IVA/Hora.</p>
+                </div>
+                <div class="container_servicio_top_orage">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                  </svg>
+                  <p>Las urgencias se tarifican según el plan Programador.</p>
+                </div> -->
+              </div>
+              <div class="card_footer bg_card_orage_footer">
+                <p>Desde</p>
+                <div class="p_price">
+                  <p><b>85,00 €/mes</b></p>
+                </div>
+                
+                <p>(Impuestos no incluidos)</p>
+                <div class="p2">
+                  <p class="modal_active">CONTRATAR</a>
                 </div>
               </div>
             </div>
@@ -401,16 +398,16 @@ require_once "../comons/version_css_js.php";
     <div class="container">
       <div class="content">
         <div class="cards">
-          <div class="card_top">
-            <div class="card_content bg_card_green">
+          <div class="card_bottom">
+            <div class="card_content position bg_card_green">
               <div class="card_grid">
-                <div class="card_grid_image">
+                <div class="card_grid_image position_img">
                   <picture class="picture-defer">
                     <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-mantenimiento-html-virtual-global.png">
                     <img class="image" src="/public/img/default.png" data-img="../public/img/plan-mantenimiento-html-virtual-global.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
                   </picture>
                 </div>
-                <div class="card_grid_content">
+                <div class="card_grid_content card_content_title">
                   <header>
                     <h2>MANTENIMIENTO HTML</h2>
                   </header>
@@ -469,10 +466,10 @@ require_once "../comons/version_css_js.php";
                 <div class="card_grid_price_green">
                   <div class="card_footer ">
                     <p>Desde</p>
-                    <header>
-                      <h2><b>45,00 €/mes</b></h2>
-                    </header>
-                    <p class="botton">(Impuestos no incluidos)</p>
+                    <div class="p_price">
+                      <p><b>45,00 €/mes</b></p>
+                    </div>
+                    <p>(Impuestos no incluidos)</p>
                     <div class="p2">
                       <p class="modal_active">CONTRATAR</a>
                     </div>
@@ -483,16 +480,16 @@ require_once "../comons/version_css_js.php";
           </div>
         </div>
         <div class="cards">
-          <div class="card_top">
-            <div class="card_content bg_card_blue">
+          <div class="card_bottom">
+            <div class="card_content position bg_card_blue">
               <div class="card_grid">
-                <div class="card_grid_image">
+                <div class="card_grid_image position_img">
                   <picture class="picture-defer">
                     <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-programador-virtual-global.png">
                     <img class="image" src="/public/img/default.png" data-img="../public/img/plan-programador-virtual-global.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
                   </picture>
                 </div>
-                <div class="card_grid_content">
+                <div class="card_grid_content card_content_title">
                   <header>
                     <h2>PLAN PROGRAMADOR</h2>
                   </header>
@@ -551,11 +548,12 @@ require_once "../comons/version_css_js.php";
                 <div class="card_grid_price_blue">
                   <div class="card_footer card_footer_color">
                     <p>Desde</p>
-                    <header>
-                      <h2><b>45,00 €/mes</b></h2>
-                    </header>
+                    <div class="p_price">
+                      <p><b>45,00 €/mes</b></p>
+                    </div>
+                    
                     <p>(Impuestos no incluidos)</p>
-                    <p class="botton-2">*Las urgencias o los trabajos solicitados para los Sábados, Domingos y Días Festivos se tarificarán a 75.00€ la hora.</p>
+                    <p>*Las urgencias o los trabajos solicitados para los Sábados, Domingos y Días Festivos se tarificarán a 75.00€ la hora.</p>
                     <div class="p2">
                       <p class="modal_active">CONTRATAR</a>
                     </div>

@@ -13,7 +13,7 @@
   grid-template-columns: 1fr 1fr;
   margin: 30px 0;
 
-  @media screen and (max-width: $tablet_1200){
+  @media screen and (max-width: $desktop_1359){
     grid-template-columns: 1fr;
   }
 }
@@ -24,7 +24,7 @@
   justify-content: center;
   // gap: 19px;
 
-  @media screen and (max-width: $tablet_1200){
+  @media screen and (max-width: $desktop_1359){
     text-align: center;
   }
 }
@@ -45,12 +45,12 @@
   justify-content: start;
   color: #fff;
 
-  @media screen and (max-width: $tablet_1200) {
+  @media screen and (max-width: $desktop_1359) {
     display: grid;
     justify-content: end;
   } 
 
-  @media screen and (max-width: $mobile_600) {
+  @media screen and (max-width: $mobile_650) {
     display: grid;
     grid-auto-flow: row;
     justify-content: center;
@@ -58,7 +58,7 @@
   } 
 
   svg {
-    width: 20px;
+    width: 25px;
     margin: auto;
     fill: #fff;
     align-items: center;
@@ -68,6 +68,12 @@
     color: #fff;
     text-decoration: none;
     transition: .5s ease;
+    font-size: 17px;
+
+    // @media screen and (max-width: $desktop_1357) {
+    //   display: grid;
+    //   grid-auto-flow: row;
+    // } 
   }
   
   a:hover{
@@ -75,11 +81,11 @@
   }
   
   span{
-    @media screen and (max-width: $tablet_1200) {
-      display: grid;
-      grid-auto-flow: column;
-      display: none;
-    } 
+    // @media screen and (max-width: $desktop_1357) {
+    //   display: grid;
+    //   grid-auto-flow: row;
+    //   display: none;
+    // } 
 
     @media screen and (max-width: $tablet_1000){
       display: none;
@@ -124,7 +130,7 @@
   } 
 
   svg {
-    width: 20px;
+    width: 25px;
     fill: $color_ws_green;
     margin: auto;
   }
@@ -132,7 +138,7 @@
   a {
     text-decoration: none;
     color: $color_ws_green;
-    font-size: 16px;
+    font-size: 18px;
     transition: .5s ease;
   }
   

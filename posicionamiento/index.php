@@ -49,17 +49,17 @@ require_once "../comons/version_css_js.php";
 
     <!-- Seccion del header -->
     <div class="banner">
-        <div class="header">
+      <div class="header">
         <h1>Posicionamiento Web</h1>
-          <p>Gratis hasta que tu WEB esté en <br> la primera página de Google</p>
-        </div>
-        <div class="header_img">
-          <picture class="picture-defer">
-            <source type='image/webp' srcset="/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-posicionamiento-mobile.webp" media="(max-width: 700px)">
-            <img class="image" src="/public/img/default.png" data-img="/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-posicionamiento.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
-          </picture>
-        </div>
+        <p>No te cobramos el posicionamiento <br> hasta que tu WEB este en las primeras 20 posiciones <br> en los resultados de búsqueda de Google</p>
       </div>
+      <div class="header_img">
+        <picture class="picture-defer">
+          <source type='image/webp' srcset="/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-posicionamiento-mobile.webp" media="(max-width: 700px)">
+          <img class="image" src="/public/img/default.png" data-img="/public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-posicionamiento.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
+        </picture>
+      </div>
+    </div>
 
     <!-- Seccion de los iconos principales -->
     <div class="container bg_light_blue">
@@ -110,11 +110,8 @@ require_once "../comons/version_css_js.php";
           <h2>PARA EL ÉXITO DE TU NEGOCIO</h2>
           <h3>Planes Seo</h3>
         </header>
-
         <div class="cards">
-
           <div class="card_top">
-
             <div class="card_content position bg_morado">
               <picture class="picture-defer position_img">
                 <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-seo.png">
@@ -124,47 +121,47 @@ require_once "../comons/version_css_js.php";
                 <h2>PACK SEO</h2>
               </header>
               <hr>
-
               <div class="container_servicio_top_morado">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                   <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                 </svg>
                 <p>Creación u Optimización de SEO interno y externo.</p>
               </div>
-
               <div class="container_servicio_top_morado">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                   <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                 </svg>
                 <p>Implementación de 3 palabras claves.</p>
               </div>
-
               <div class="container_servicio_top_morado">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                   <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                 </svg>
                 <p>Control y Optimización mensual del SEO de la WEB. </p>
               </div>
-
               <div class="container_servicio_top_morado">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                   <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                 </svg>
                 <p>Monitorización de los resultados.</p>
               </div>
-
               <div class="container_servicio_top_morado">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                   <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                 </svg>
-                <p>Para otras condiciones CONSULTAR.</p><br><br>
+                <p>Para otras condiciones CONSULTAR.</p>
               </div>
-
+              <div class="container_servicio_top_morado">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                  <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
+                </svg>
+                <p>Imprescindibles tener contratado el Mantenimiento WEB Avanzado o HTML</p>
+              </div>
               <div class="card_footer_morado bg_morado_footer">
                 <p>Desde</p>
-                <header>
-                  <h2>300,00 €/mes</h2>
-                </header>
+                <div class="p_price">
+                  <p>400,00 €/mes</p>
+                </div>
                 <p class="botton">(Impuestos no incluidos)</p>
                 <div class="p2">
                   <p class="modal_active">CONTRATAR</a>
@@ -413,4 +410,5 @@ require_once "../comons/version_css_js.php";
   <script src="../public/js/modal_contratar.js?ver=<?php echo $ver ?>"></script>
 
 </body>
+
 </html>

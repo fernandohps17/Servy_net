@@ -46,7 +46,7 @@
       webp: "./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-posicionamiento.webp",
       mobile: "./public/img/servynet-agencia-marketing-digital-posicionamiento-seo-cabecera-posicionamiento-mobile.webp",
       title: "Posicionamiento Web",
-      subtitle: "Gratis hasta que tu WEB esté en <br> la primera página de Google",
+      subtitle: "No te cobramos el posicionamiento <br> hasta que tu WEB este en las primeras 20 posiciones <br> en los resultados de búsqueda de Google",
     },
   ];
 

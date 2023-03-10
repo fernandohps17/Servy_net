@@ -3,7 +3,7 @@ function cargarScriptRecatpcha() {
   var scriptTag = document.createElement("script");
   scriptTag.setAttribute(
     "src",
-    "https://www.google.com/recaptcha/api.js?render=6LfAzeAkAAAAAJGPZ7nIBogNiQXIDZiBVLGI7ZZG"
+    "https://www.google.com/recaptcha/api.js?render=6LfAzeAkAAAAAJAYZoQlq2AnpXBir4x3wiU2XLeD"
   );
   document.getElementsByTagName("head")[0].appendChild(scriptTag);
 }

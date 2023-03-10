@@ -114,9 +114,11 @@ require_once "../comons/version_css_js.php";
         <div class="cards">
 
           <div class="card_top">
-            <div class="card_content position bg_card_top">
-              <picture class="picture-defer position_img">
-                <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-mantenimiento-basico-web.webp">
+            <div class="card_content position ">
+              <div class="bg_card_top">
+
+                <picture class="picture-defer position_img">
+                  <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-mantenimiento-basico-web.webp">
                 <img class="image" src="/public/img/default.png" data-img="../public/img/plan-mantenimiento-basico-web.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
               </picture>
               <header class="card_content_title">
@@ -179,10 +181,13 @@ require_once "../comons/version_css_js.php";
                 </svg>
                 <p>Diseño Extra de Vídeo Publicitario: 75€</p>
               </div>
+            </div>
 
               <div class="card_footer bg_card_top_footer">
                 <p>Desde</p>
-                <h2>75,00 €/mes</h2>
+                <div class="p_price">
+                  <p>75,00 €/mes</p>
+                </div>
                 <p class="botton">(Impuestos no incluidos)</p>
                 <div class="p2">
                   <p class="modal_active">CONTRATAR</a>
@@ -190,9 +195,11 @@ require_once "../comons/version_css_js.php";
               </div>
             </div>
 
-            <div class="card_content position bg_morado">
-              <picture class="picture-defer position_img">
-                <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-avanzado-virtual-global.webp">
+            <div class="card_content position ">
+              <div class="bg_morado">
+
+                <picture class="picture-defer position_img">
+                  <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="../public/img/plan-avanzado-virtual-global.webp">
                 <img class="image" src="/public/img/default.png" data-img="../public/img/plan-avanzado-virtual-global.webp" alt="Servynet agencia de programacion" title="Servynet agencia de programacion" width="100" height="100">
               </picture>
               <header class="card_content_title">
@@ -255,10 +262,13 @@ require_once "../comons/version_css_js.php";
                 </svg>
                 <p>Diseño Extra de Vídeo Publicitario: 75€</p>
               </div>
-
+            </div>
+              
               <div class="card_footer_morado bg_morado_footer">
                 <p>Desde</p>
-                <h2>150,00 €/mes</h2>
+                <div class="p_price">
+                  <p>150,00 €/mes</p>
+                </div>
                 <p class="botton">(Impuestos no incluidos)</p>
                 <div class="p2">
                   <p class="modal_active">CONTRATAR</a>
@@ -361,7 +371,7 @@ require_once "../comons/version_css_js.php";
                   </div>
 
                   <div class="enlace">
-                    <a href="">LA QUIERO</a>
+                  <p class="modal_active">LA QUIERO</p>
                   </div>
                 </div>
               </div>

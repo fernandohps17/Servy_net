@@ -5,6 +5,10 @@
   
   .bg_card_top_footer{
     background: $gradient_blue;
+    // position: absolute;
+    // bottom: 0;
+    // right: 0;
+    // left: 0;
   }
 
   .shadow{
@@ -14,11 +18,18 @@
   
   .card_top{
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
   
-    @media screen and (max-width: $tablet_1150) {
-      grid-auto-flow: row;
+    @media screen and (max-width: $tablet_1280) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .plan_web_avanzado{
+    @media screen and (max-width: $tablet_1280) {
+      display: grid;
+      grid-row: 2/3;
     }
   }
   
@@ -34,13 +45,9 @@
     grid-gap: 10px;
     justify-content: start;
     padding: 10px 20px;
-
-    @media screen and (max-width: $tablet_1200) {
-      justify-content: center;
-    }
-
-    @media screen and (max-width: $tablet_700) {
-      justify-content: start;
+    
+    span{
+      color: rgba(255, 255, 255, 0);
     }
     
     svg {
@@ -52,10 +59,6 @@
     p{
       display: grid;
     }
-    
-    span{
-      color: #00006600;
-    }
   }
   
   .position{
@@ -65,7 +68,7 @@
   .position_img{
     img{
       position: absolute;
-      top: -100px;
+      top: -125px;
       left: 0;
       right: 0;
     }
@@ -92,6 +95,7 @@
       padding: 10px; 
       color: $color_dark_blue;
       font-weight: 200;
+      font-size: 20px;
     }
 
     h3{
@@ -113,7 +117,7 @@
 
   .card_content_title{
     h2{
-      padding: 150px 10px 10px 10px;
+      padding: 130px 10px 10px 10px;
 
       @media screen and (max-width: $mobile_600) {
         padding: 100px 10px 10px 10px;
@@ -132,18 +136,23 @@
     text-align: center;
     padding: 20px;
     line-height: 15px;
-    height: 120px;
     border-radius: 0 0 5px 5px;
-  
-    h2{
-      color: white;
-    }
+    display: grid;
+    gap: 10px;
+    // position: absolute;
+    // width: 100%;
+    // bottom: 0;
+    // box-sizing: border-box;
   
     p{
       color: $color_dark_blue;
     }
     
     .p2{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      
       p{
         color: white;
         background: $color_dark_blue;
@@ -155,7 +164,6 @@
         transition: .5s ease;
         font-weight: 600; 
         width: 100px; 
-        margin: auto;
         cursor: pointer;
       }
 
@@ -163,13 +171,13 @@
         background: $color_light_blue;
       }
     }
-  
-    .botton{
-      margin-bottom: 25px;
-    }
     
-    .botton-2{
-      margin: 10px 0 15px 0;
-      font-size: 12px;
+    .p_price{
+
+      p{
+        color: white;
+        font-size: 25px;
+      }
     }
   }  
+  

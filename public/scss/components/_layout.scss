@@ -3,6 +3,7 @@
 *{
   margin: 0;
   padding: 0;
+  // box-sizing: border-box;
 }
 
 body{
@@ -21,7 +22,7 @@ html{
 .content {
   display: grid;
   grid-column: 2/3;
-  max-width: 1600px;
+  max-width: 1300px;
   margin: 0 auto;
   width: 100%;
 }
