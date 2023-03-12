@@ -268,7 +268,7 @@ require_once "../comons/version_css_js.php";
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                     <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                   </svg>
-                  <p>Reparación de la WEB caída por fallos, las 24 horas y 365 días del año.</p>
+                  <p>Reparación de la WEB, caída por fallos, los 365 días del año.</p>
                 </div>
                 <div class="container_servicio_top_orage">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
@@ -294,18 +294,6 @@ require_once "../comons/version_css_js.php";
                   </svg>
                   <p>Primera hora gratuita para desarrollo, programación y cambios en la WEB (NO ACUMULABLES) y resto a 35 € + IVA/Hora.</p>
                 </div>
-                <!-- <div class="container_servicio_top_orage">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                  </svg>
-                  <p>Horas de desarrollo, programación y cambios en la WEB a 35 € + IVA/Hora.</p>
-                </div>
-                <div class="container_servicio_top_orage">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                  </svg>
-                  <p>Las urgencias se tarifican según el plan Programador.</p>
-                </div> -->
               </div>
                 <div class="card_footer bg_card_orage_footer">
                   <p>Desde</p>
@@ -339,7 +327,7 @@ require_once "../comons/version_css_js.php";
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                     <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                   </svg>
-                  <p>Reparación de la WEB caída por fallos, las 24 horas y 365 días del año.</p>
+                  <p>Reparación de la WEB, caída por fallos, los 365 días del año.</p>
                 </div>
                 <div class="container_servicio_top_orage">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
@@ -365,18 +353,6 @@ require_once "../comons/version_css_js.php";
                   </svg>
                   <p>Primera hora gratuita para desarrollo, programación y cambios en la WEB (NO ACUMULABLES) y resto a 35 € + IVA/Hora.</p>
                 </div>
-                <!-- <div class="container_servicio_top_orage">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                  </svg>
-                  <p>Horas de desarrollo, programación y cambios en la WEB a 35 € + IVA/Hora.</p>
-                </div>
-                <div class="container_servicio_top_orage">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                    <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                  </svg>
-                  <p>Las urgencias se tarifican según el plan Programador.</p>
-                </div> -->
               </div>
               <div class="card_footer bg_card_orage_footer">
                 <p>Desde</p>
@@ -432,12 +408,6 @@ require_once "../comons/version_css_js.php";
                       Corrección de errores.
                     </p>
                   </div>
-                  <!-- <div class="container_servicio_top_orage svg_green">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-                      <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
-                    </svg>
-                    <p>Copias de seguridad de la WEB.</p>
-                  </div> -->
                   <div class="container_servicio_top_orage svg_green">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                       <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />

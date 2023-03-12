@@ -69,11 +69,6 @@
     text-decoration: none;
     transition: .5s ease;
     font-size: 17px;
-
-    // @media screen and (max-width: $desktop_1357) {
-    //   display: grid;
-    //   grid-auto-flow: row;
-    // } 
   }
   
   a:hover{
@@ -81,12 +76,6 @@
   }
   
   span{
-    // @media screen and (max-width: $desktop_1357) {
-    //   display: grid;
-    //   grid-auto-flow: row;
-    //   display: none;
-    // } 
-
     @media screen and (max-width: $tablet_1000){
       display: none;
     }
@@ -120,13 +109,6 @@
   @media screen and (max-width: $mobile_580) {
     display: grid;
     grid-auto-flow: row;
-    
-    // svg {
-    //   display: grid;
-    //   justify-content: center;
-    //   align-items: center;
-    //   text-align: center;
-    // }
   } 
 
   svg {
