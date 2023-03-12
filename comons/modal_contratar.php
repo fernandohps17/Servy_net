@@ -1,4 +1,4 @@
-<section class="modal">
+<section class="modal closeVentana">
   <div class="modal_container">
     <h2>Formulario de Registro</h2>
     <div class="form_form">
